@@ -11,15 +11,15 @@
 </p>
 
 <p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=FastFeet&uri=https%3A%2F%2Fraw.githubusercontent.com%2FEliasGcf%2Ffastfeet%2Fmaster%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://insomnia.rest/run/?label=FastFeet&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fjacksonroberto%2Ffastfeet%2Fmaster%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 <strong>Links dos desafios:</strong>
 
-- [Etapa 1](https://github.com/EliasGcf/fastfeet/blob/master/server/ETAPA_01.md)
-- [Etapa 2](https://github.com/EliasGcf/fastfeet/blob/master/server/ETAPA_02.md)
-- [Etapa 3](https://github.com/EliasGcf/fastfeet/blob/master/web/ETAPA_03.md)
-- [Etapa 4](https://github.com/EliasGcf/fastfeet/blob/master/mobile/ETAPA_04.md)
+- [Etapa 1](https://github.com/jacksonroberto/fastfeet/blob/master/server/ETAPA_01.md)
+- [Etapa 2](https://github.com/jacksonroberto/fastfeet/blob/master/server/ETAPA_02.md)
+- [Etapa 3](https://github.com/jacksonroberto/fastfeet/blob/master/web/ETAPA_03.md)
+- [Etapa 4](https://github.com/jacksonroberto/fastfeet/blob/master/mobile/ETAPA_04.md)
 
 ## :rocket: Tecnologias
 
@@ -83,7 +83,7 @@ _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 # Fork via GitHub official command line
 # Caso não tenha o GitHub CLI, realize o fork pelo site.
 
-$ gh repo fork EliasGcf/fastfeet
+$ gh repo fork jacksonroberto/fastfeet
 ```
 
 ```bash
@@ -104,4 +104,4 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 ---
 
-Feito com 💜 by [EliasGcf](https://www.linkedin.com/in/eliasgcf/)
+Feito com 💜 by [Jackson Silva](https://www.linkedin.com/in/jacksonrsilva/)
