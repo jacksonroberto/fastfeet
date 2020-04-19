@@ -6,8 +6,7 @@
 
 <p align="center">
  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
- <a href="#computer-instalação-execução-e-desenvolvimento">Instalação, execução e desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
- <a href="#-como-contribuir">Como contribuir</a>
+ <a href="#computer-instalação-execução-e-desenvolvimento">Instalação, execução e desenvolvimento</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <p id="insomniaButton" align="center">
@@ -41,12 +40,18 @@ Importe o arquivo `Insomnia.json` no Insomnia ou clique no botão [Run in Insomn
 
 ### Pré-requisitos
 
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://legacy.yarnpkg.com/en/) (Optional).
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 
 **Faça um clone desse repositório**
 
 ### Backend
+
+
+- API RESTFUL criada com Node.js usando [express](https://expressjs.com/pt-br/).
+- Banco de dados usado PostgresSQL com [sequelize](https://sequelize.org/v5/).
 
 - A partir da raiz do projeto, entre na pasta rodando `cd server`;
 - Rode `yarn` para instalar sua dependências;
@@ -64,71 +69,7 @@ _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 - Rode `yarn` para instalar as dependências;
 - Rode `yarn start` para iniciar o client web;
 
-### Mobile
-
-Obs.: Esse projeto mobile foi testado apenas no **Android**.
-
-_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
-
-- A partir da raiz do projeto, entre na pasta do frontend mobile rodando `cd mobile`;
-- Rode `yarn` para instalar as dependências;
-- Edite o arquivo `mobile/src/services/api.js`, alterando `baseURL` para o IP correspondente a máquina que estiver executando o `backend`;
-- Abra o emulador do Android ou conecte seu dispositivo via USB, em seguida, rode `yarn react-native run-android`;
-
-<h2 align="center">
-    FastFeet, The future of parcel deliveries! 📫 🚚💨
-</h2>
-
-<h3 align="center">
-    Your order treated with great affection. 💌
-</h3>
-
-# ❗️ Requisites
-
-To runed this all project, you need have be the packages installed:
-
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://legacy.yarnpkg.com/en/) (Optional).
-
-# 💾 Backend
-
-- API RESTFUL created with Node.js using [express](https://expressjs.com/pt-br/).
-
-- For database use PostgresSQL with [sequelize](https://sequelize.org/v5/).
-
-## ⚡️ Start
-
-- For use this api you need have be installed PostgresSQL, I'm use [Docker](https://www.docker.com/), but this is optional.
-- If you don't want installing DOCKER, use convencional [Postgres](https://www.postgresql.org/download/) installation.
-
-### Runing Postgres using DOCKER: 🐋
-
-```
-$ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
-```
-
-#### If you already have a container with Postgres, run:
-
-```
-$ docker start "CONTAINER DOCKER ID"
-```
-
-- For background jobs I'm using Redis with DOCKER.
-- If you don't want installing DOCKER, use convencional installation of [Redis](https://chocolatey.org/packages/redis-64) via [Chocolatey](https://chocolatey.org/docs/installation) .
-
-### Runing Redis using DOCKER: 🐋
-
-```
-$ docker run --name some-redis -d redis
-```
-
-#### If you already have a container with Rerdis, run:
-
-```
-$ docker start "CONTAINER DOCKER ID"
-```
-
-### Now in your terminal, run:
+### Outros comandos:
 
 ```
 $ cd backend
@@ -144,10 +85,21 @@ $ yarn sequelize db:seed:all
 $ yarn dev
 ```
 
-#### To debugin, run:
+
+
+### Mobile
+
+Obs.: Esse projeto mobile foi testado apenas no **Android**.
+
+_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
+
+- A partir da raiz do projeto, entre na pasta do frontend mobile rodando `cd mobile`;
+- Rode `yarn` para instalar as dependências;
+- Edite o arquivo `mobile/src/services/api.js`, alterando `baseURL` para o IP correspondente a máquina que estiver executando o `backend`;
+- Abra o emulador do Android ou conecte seu dispositivo via USB, em seguida, rode `yarn react-native run-android`;
+
+#### Outros comandos:
 
 ```
 yarn dev:debug
 ```
-
-Feito com 💜 by [Jackson Silva](https://www.linkedin.com/in/jacksonrsilva/)
