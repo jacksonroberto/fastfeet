@@ -72,7 +72,7 @@ _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 ### Outros comandos:
 
 ```
-$ cd backend
+$ cd server
 
 $ yarn
 
